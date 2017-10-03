@@ -31,16 +31,6 @@ function Ninja(name) {
         console.log(ninja.name + " was kicked by " + this.name + " and lost " + damage + " Health!");
         strength -= 1;
         return this;
-
-
-
-
-        // if strength > 1 {
-        //     ninja_name.health -= 15;
-        //     console.log(ninja_name.name, "was kicked by", this.name + "and lost 15 Health!");
-        // }
-        // strength -= 1;
-        // return this;
     }
 }
 
